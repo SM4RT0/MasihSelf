@@ -6,7 +6,7 @@ from pyrogram import filters
 
 client = Client('user', config_file='config.ini')
 
-VERSION = 1.0
+VERSION = 2.0
 
 
 
