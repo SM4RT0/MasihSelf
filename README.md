@@ -41,6 +41,5 @@ created by https://github.com/Masihgh/MasihSelf && animations increased by : htt
  * [9] ``git commit -am "make it better"``
  * [10] ``git push heroku master``
  * [11] Check logs for success build and run ``https://dashboard.heroku.com/apps/[app-name]/logs``
- * Note(do the first way in [How Usage] section and get your ``user.session`` file . so a)
  * Enjoy
  * 
