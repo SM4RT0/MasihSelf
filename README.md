@@ -1,4 +1,4 @@
-# MasihSelf
+# MasihSelf V2
 created by https://github.com/Masihgh/MasihSelf
 animations increased by : https://github.com/SM4RT0/MasihSelf/
 ## How Usage
