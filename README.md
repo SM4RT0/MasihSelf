@@ -1,4 +1,4 @@
-# MasihSelf V2
+# MasihSelf V2.1
 created by https://github.com/Masihgh/MasihSelf && animations increased by : https://github.com/SM4RT0/MasihSelf/
 ## How Usage
 * [0] ``git clone https://github.com/SM4RT0/MasihSelf.git``
