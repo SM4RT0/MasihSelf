@@ -19,11 +19,12 @@ Animation Text Edit
 [9] pros
 [10] post
 [11] hack
-[12] shash
-[13] shashr (shashidam too in refaghat)
-[14] jaq1 (😎)
-[15] jaq2 (🥺)
-[16] lovehack (vip command)
+[12] gun
+[13] shash
+[14] shashr (shashidam too in refaghat)
+[15] jaq1 (😎)
+[16] jaq2 (🥺)
+[17] lovehack (vip command)
 """
 
 
@@ -299,3 +300,12 @@ async def jaq2(client: Client, message: Message):
                 await message.edit(asset)
     await message.edit('**\n YEAH BABE\n\n    🥺                        \n   / [] \                              \n    (( B======𝒟💦  /       /\n    /   \                 😶‍🌫️====\n                                  \       \  **')
 
+@Client.on_message(filters.regex('^gun$', re.I) & filters.me)
+async def gun(client: Client, message: Message):
+    pros_animation = ['بمیر \n ▄︻̷┻═━一 —','بمیر \n ▄︻̷┻═━一 — —','بمیر \n ▄︻̷┻═━一 — — —',' بمیر \n ▄︻̷┻═━一 — — — —','بمیر \n ▄︻̷┻═━一 — — — — —']
+    run_animation = 4
+
+    for i in range(run_animation):
+         for asset in pros_animation:
+                await asyncio.sleep(0.3)
+                await message.edit(f'{asset}')
